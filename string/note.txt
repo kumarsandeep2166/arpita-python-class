@@ -1,0 +1,14 @@
+String is array of characters
+strings are immutable or not changeable
+"str" datatype is used to represent string datatype
+
+Escape characters
+--------------------
+\a         bell or start
+\b         Backspace
+\n         new line
+\t         horizontal space
+\v         vertical space
+\r         enter
+\x         character x
+\\         display single \

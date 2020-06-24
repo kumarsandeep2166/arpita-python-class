@@ -1,0 +1,9 @@
+if (condition):
+    statement1
+    statement2
+____--identation means the above statements belong tp that particular if block
+
+if (condition):
+    statements
+else:
+    statements

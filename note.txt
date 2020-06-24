@@ -1,0 +1,83 @@
+Guido van Rossum
+1991
+Features
+------------
+1. Simple -- less stress on clarity about the programming structure.it is Just like reading english statements. Easy
+2. Easy to learn -- The elegant style of coding makes easy to learn even complex applications. it has very less keywords
+3. Open source -- no need to pay for python. it is freely available
+4. High level language -- 
+5. Dynamically Typed--- we need not to declare anything as everything is already predefinely declared.
+                        An assignment statements binds to an object of particular type can be changed to another
+                        changing the value only.
+6. platform independent-- when a code is written in windows system is also same in mac or linux.
+7. Portable - when a programming language gives same output in different environments it becomes Portable.
+                Once a code is written , it can run in any platform and executed by 
+                PVM(Python virtual machine)
+8. Procedural as well as object Oriented --- python supports structured oriented programming 
+                                            style that, programs are developed using functions and procedures.
+                                            In case OOP use of classes and objects.
+
+9. Interpreted -- Each program is executed line by line. It is the job of PVM to reach on every line to execute.
+10. Extensible - python can communicate with other programming languages like C, java, C++.
+                The programs written in other programming labguages can be integrated into python.
+11. Embeddable -- we can also use python into other programming languages.
+12. Huge Library --- python has a huge Library for different operating systems as programmers can develop 
+                    applications using specific library.
+13. Scripting Language-- 
+14. Database Connectivity -- python can be used for Connectivity with any Database available in the world.
+15. Scalable ---- it can be moved from one source to mutiple destinations.
+
+KEYWORDS
+---------
+and
+as
+assert
+break
+class
+continue
+def
+del 
+else 
+elif
+except
+exec
+finally
+for
+from 
+global
+in
+is
+import
+if
+lambda
+nonlocal
+not
+None
+False
+True
+or
+pass
+print
+raise
+return
+try
+while
+with
+yield
+
+Comments
+------------
+3 types of comments used in python
+single line comments
+multiline comments
+docstrings
+
+datatype
+-------------
+None
+Numeric
+sequence
+set 
+Mappings
+
+None

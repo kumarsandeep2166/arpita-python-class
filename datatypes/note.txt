@@ -1,0 +1,39 @@
+bytes-- this represents group of elements in the form  of numbers in byte.
+2. these are stored in the form of array.
+3. the elements canot be modified.
+
+bytearray --- this is same as byte but here modification is possible.
+
+list-
+it is same as array.
+it holds duplicate elements as well as heterogenous elements.
+items can be modified here.
+it can store different elements dynamically into it.
+all the elements are stored inside []
+the underlying datastructure is array
+
+tuple
+-----
+it is also same as list.
+it can hold duplicate elements as well as heterogenous elements.
+but the only difference is it is not dynamic.
+the underlying datastructure is array.
+we cannot add or modify the elements from tuple.
+all the elements are represented inside ().
+
+range function
+------------
+range function is used for repeating a for loop.
+
+
+Set
+----
+1. only homogeneous elements are accepted
+2. insertion order is not followed.
+3. unordered datastructure
+4. represented inside {}
+
+mappings
+-----------
+it is also called as dictionary
+here the elements are stored in key & value pair format

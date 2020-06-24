@@ -1,0 +1,76 @@
+escape character
+--------------------
+
+\ ----- new line
+\\ ----- print single \
+\' ---- single quote
+\"----- double quote
+\b ------ backspace
+\r ----- enter
+\t ----- horizontal tab space
+\v----------- vertical line
+\n -------- new line
+
+operator
+------------
+arithmetic operator
+assignment operator
+logical operator
+boolean operator
+unary minus operator
+relational operator
+bitwise operator
+identity operator
+membership operator
+
+---> if operator acts on sigle variable then it is unary operator.
+---> if operator acts on two variable then it is binary operator.
+---> if operator acts on three variable then it is ternary operator.
+---> operator acts on variables called as operands (if a+b then a,b are operands and + is the operator)
+
+formula
+--------------
+
+8 bit arrangement
+
+       | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |    
+       | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |   
+    45=   0    0      1     0    1     1     0     1
+    25=   0    0      0     1    1     0     0     1
+    45=   0    0      1     0    1     1     1     0   
+    ~45=   1    0      1     0    1     1     1     0   
+
+(45&25)= 9
+(45|25)=32+16+8+4+1 =61
+(45^25)=32+16+4=52
+(~45)= 128+64+16+2=210
+
+
+       | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |    
+       | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |   
+    45=   0    0      1     0    1     1     0     1
+    ~ =   1    1      0     1    0     0     1     0
+    1's=  1    0      1     0    1     1     0     1 (+1 add last)
+    2's=  1    0      1     0    1     1     1     0 = -46
+
+       
+       | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |    
+       | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |   
+    25=   0    0     0      1    1     0     0     1
+    ~ =   1    1     1      0    0     1     1     0
+    1's=  1    0     0      1    1     0     0     1 (+1 add last)
+    2's=  1    0     0      1    1     0     1     0 = -26
+
+left shift
+
+   | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |    
+   | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |   
+45=   0    0      1     0    1     1     0     1
+45<<2 = 1  0      1     1    0     1     0     0 = 128+32+16+4=180
+
+right shift
+
+   | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |    
+   | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |   
+45=   0    0      1     0    1     1     0     1
+45>>2 =0   0      0     0    1     0     1     1 = 11
