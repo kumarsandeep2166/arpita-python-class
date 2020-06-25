@@ -13,3 +13,4 @@ while i<n:
 # slicing
 
 print(lst[::-1]) #reverse the list elements
+print(lst[0])
