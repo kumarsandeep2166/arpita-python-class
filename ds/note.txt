@@ -1,0 +1,58 @@
+Data Structure
+----------------
+organising data in a structured way
+types
+--------
+1.LinkedList
+2.Stack
+3.Queue
+4.Deque
+
+LinkedList
+---------------
+1. A linked list is a linear data structure, 
+        in which the elements are not stored at contiguous memory locations.
+
+2. In simple words, a linked list consists of nodes where each node contains a 
+        data field and a reference(link) to the next node in the list.
+
+*.The data field contains the data
+*.the link field contains the reference to the next node.
+*. the link field contains the reference to the previous node.
+_______________         _______________
+_p__|__d__|__n_|-----  |__p__|___d__|_n|
+operations
+------------
+1. Traverse---displays each element in forward direction
+2. appending elements to the  LinkedList
+3. inserting new element into the LinkedList
+4. remove an element from the LinkedList
+5. replace one element with another
+6. searching of an element from the LinkedList
+7. size of the LinkedList
+
+
+Stack
+-------
+____________
+|____9____|
+|____8____|
+|___7_____|
+|___6_____|
+|____5____|
+|___4_____|
+|_____3___|
+|___2_____|
+|____1____|
+stack supports last in first out order
+means the element which is inserted at last will be popped out first
+
+operations
+-----------
+1. Push --- inserted an element at top of the stack
+2. pop ----- it means removing the topmost element from the stack
+3. peep ---- returns the topmost element without deleting it.from the stack
+4. searching operation--- knowing the position of an element in the stack
+5. empty stack or not- - we can check a stack is if empty or not.
+
+

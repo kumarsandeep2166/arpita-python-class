@@ -29,5 +29,15 @@ print('after reversing the list is: ', num)
 num.sort()
 print('after sorting the list is: ', num)
 
-num.clear()
-print('after clearing the list is: ', num)
+num.sort(reverse=True)
+print('after sorting the list is: ', num)
+
+# num.clear()
+# print('after clearing the list is: ', num)
+
+# finding biggest and smallest element from list
+n1 = max(num)
+print('the biggest element is: ', n1)
+
+n2 = min(num)
+print('the smallest element is:', n2)
